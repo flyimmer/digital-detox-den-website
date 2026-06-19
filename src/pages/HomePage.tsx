@@ -5,15 +5,15 @@ export function HomePage() {
   return (
     <>
       <SEO
-        title="Welcher Scroll-Typ bist du?"
-        description="Finde in 3 Minuten heraus, warum du automatisch zum Handy greifst und welcher kleine erste Schritt zu dir passt."
+        title="Welcher Scroll-Typ bist Du?"
+        description="Finde in 3 Minuten heraus, warum Du automatisch zum Handy greifst - und welcher erste Schritt zu Dir passt."
       />
       <section className="hero">
         <div className="hero-copy">
           <p className="eyebrow">Digital Detox Den</p>
-          <h1>Welcher Scroll-Typ bist du?</h1>
+          <h1>Welcher Scroll-Typ bist Du?</h1>
           <p className="hero-subtitle">
-            Finde in 3 Minuten heraus, warum du automatisch zum Handy greifst und welcher kleine erste Schritt zu dir passt.
+            Finde in 3 Minuten heraus, warum Du automatisch zum Handy greifst - und welcher erste Schritt zu Dir passt.
           </p>
           <div className="hero-actions">
             <AppLink href="/selbsttest" className="button primary">Selbsttest starten</AppLink>
@@ -40,11 +40,11 @@ export function HomePage() {
 
       <section className="section">
         <div className="section-heading">
-          <p className="eyebrow">Was du bekommst</p>
+          <p className="eyebrow">Was Du bekommst</p>
           <h2>Ein klares Ergebnis statt schlechtem Gewissen.</h2>
         </div>
         <div className="feature-grid">
-          {["deinen Scroll-Typ", "deinen wahrscheinlich stärksten Trigger", "eine erste Mini-Regel", "den passenden nächsten Schritt in die Community"].map((item) => (
+          {["Deinen Scroll-Typ", "Deinen stärksten Trigger", "eine erste Mini-Regel", "den Einstieg in eine Community, die weiterhilft"].map((item) => (
             <div className="feature" key={item}>
               <span className="feature-dot" aria-hidden="true" />
               <p>{item}</p>
@@ -58,17 +58,17 @@ export function HomePage() {
           <AppLink href="/selbsttest" className="product-card">
             <span>01</span>
             <h3>Digital Detox Selbsttest</h3>
-            <p>Beantworte 8 kurze Fragen und finde deinen wahrscheinlichsten Scroll-Typ.</p>
+            <p>Beantworte 8 kurze Fragen und finde heraus, welcher Scroll-Typ Du bist.</p>
           </AppLink>
           <AppLink href="/guides" className="product-card">
             <span>02</span>
             <h3>Guides</h3>
-            <p>Kurze, praktische Texte für Alltagssituationen wie Abend-Scrolling oder Doomscrolling.</p>
+            <p>Kurze Texte für echte Alltagssituationen - von Abend-Scrolling bis Doomscrolling.</p>
           </AppLink>
           <AppLink href="/community" className="product-card">
             <span>03</span>
             <h3>Community</h3>
-            <p>Ein ruhiger Ort für Austausch, kleine Regeln und bewussteren Umgang mit digitalen Gewohnheiten.</p>
+            <p>Echte Gespräche, Mini-Regeln und Menschen, die das genauso kennen wie Du.</p>
           </AppLink>
         </div>
       </section>

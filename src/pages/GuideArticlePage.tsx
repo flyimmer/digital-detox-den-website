@@ -42,10 +42,14 @@ export function GuideArticlePage({ slug }: { slug: string }) {
 
         <aside className="cta-band">
           <div>
-            <p className="eyebrow">Selbsttest</p>
-            <h2>Welcher Scroll-Typ bist du?</h2>
+            <p className="eyebrow">Dein nächster Schritt</p>
+            <h2>Weißt Du schon, welcher Scroll-Typ Du bist?</h2>
+            <p>Der Test dauert 3 Minuten - und zeigt Dir, wo Dein Autopilot anspringt.</p>
           </div>
-          <AppLink href="/selbsttest" className="button primary">Selbsttest starten</AppLink>
+          <div className="cta-actions">
+            <AppLink href="/selbsttest" className="button primary">Selbsttest starten</AppLink>
+            <AppLink href="/community" className="button secondary">Zur Community</AppLink>
+          </div>
         </aside>
       </article>
     </>

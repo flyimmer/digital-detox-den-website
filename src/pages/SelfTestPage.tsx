@@ -53,7 +53,7 @@ export function SelfTestPage() {
           <div className="why-box">
             <h2>Warum das wichtig ist</h2>
             <p>
-              Wenn du deinen Trigger kennst, musst du nicht den ganzen Tag gegen dein Handy kämpfen. Du kannst an genau der
+              Wenn Du Deinen Trigger kennst, musst Du nicht den ganzen Tag gegen Dein Handy kämpfen. Du kannst an genau der
               Situation ansetzen, in der der Autopilot startet.
             </p>
           </div>
@@ -71,7 +71,7 @@ export function SelfTestPage() {
     <>
       <SEO
         title="Selbsttest"
-        description="Beantworte 8 kurze Fragen und finde deinen Scroll-Typ, stärksten Trigger und eine erste Mini-Regel."
+        description="Beantworte 8 kurze Fragen und finde Deinen Scroll-Typ, stärksten Trigger und eine erste Mini-Regel."
       />
       <section className="quiz-shell">
         <div className="quiz-topline">

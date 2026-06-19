@@ -15,8 +15,8 @@ export function CommunityPage() {
           <p className="eyebrow">Community</p>
           <h1>Digital Detox Den Community</h1>
           <p>
-            Ein Ort für Menschen, die weniger automatisch scrollen und bewusster mit Handy, Social Media und digitalen Gewohnheiten
-            umgehen wollen.
+            Eine echte Gemeinschaft für alle, die ihren Autopiloten kennen - und ihn gemeinsam ein bisschen leiser drehen wollen.
+            Kein Druck. Keine Perfektion. Einfach Menschen mit denselben Mustern.
           </p>
           <div className="hero-actions">
             <AppLink href={communityUrl} className="button primary">Zur Community</AppLink>
@@ -28,33 +28,36 @@ export function CommunityPage() {
 
       <section className="section community-grid">
         <article>
-          <h2>Für wen sie ist</h2>
+          <h2>Kommt Dir das bekannt vor?</h2>
           <ul className="check-list">
-            <li>Menschen, die abends zu lange scrollen</li>
-            <li>Menschen, die Doomscrolling reduzieren wollen</li>
-            <li>Menschen, die nicht komplett offline sein wollen</li>
-            <li>Menschen, die kleine realistische Regeln suchen</li>
-            <li>Menschen, die Austausch statt Selbstvorwürfe wollen</li>
+            <li>Du scrollst abends länger als geplant - obwohl Du es eigentlich weißt.</li>
+            <li>Du willst weniger, aber nicht komplett offline gehen.</li>
+            <li>Du suchst ehrlichen Austausch - keine Selbstkritik und keinen erhobenen Zeigefinger.</li>
+            <li>Du willst kleine Regeln, die im echten Alltag wirklich halten.</li>
+            <li>Du möchtest wissen, dass andere das genauso kennen wie Du.</li>
           </ul>
         </article>
         <article>
-          <h2>Was dort passiert</h2>
+          <h2>Was Dich erwartet</h2>
           <ul className="check-list">
-            <li>Austausch über eigene Scroll-Muster</li>
-            <li>Tipps und kleine Regeln</li>
-            <li>Diskussionen zu Digital Detox</li>
-            <li>Erfahrungsberichte</li>
-            <li>Später eventuell Gruppenformate</li>
+            <li>Offene Gespräche über Scroll-Muster - ganz ohne Scham</li>
+            <li>Mini-Regeln, die andere wirklich ausprobiert haben und die funktionieren</li>
+            <li>Erfahrungen, die Du sonst kaum laut aussprechen würdest</li>
+            <li>Gemeinsame Challenges - nur wenn Du Lust hast, kein Druck</li>
+            <li>Für alle aus München: ab und zu auch etwas offline</li>
           </ul>
         </article>
       </section>
 
       <section className="section split-section">
         <div>
-          <p className="eyebrow">So passt der Selbsttest dazu</p>
-          <h2>Bring dein Ergebnis mit.</h2>
+          <p className="eyebrow">Dein Einstieg in die Community</p>
+          <h2>Bring Dein Muster mit.</h2>
         </div>
-        <p>Mach zuerst den Selbsttest, finde deinen Scroll-Typ und bring dein Ergebnis mit in die Community.</p>
+        <p>
+          Der Selbsttest zeigt Dir, wo Dein Autopilot anspringt - und warum. Bring Deinen Scroll-Typ in die Community
+          und finde Menschen, die genau dort ansetzen, wo Du gerade stehst. Das Gespräch darüber ist oft der beste erste Schritt.
+        </p>
       </section>
     </>
   );

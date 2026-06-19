@@ -12,7 +12,7 @@ export function GuidesPage() {
       <section className="page-hero compact-hero">
         <p className="eyebrow">Guides</p>
         <h1>Kleine Regeln für echte Alltagssituationen.</h1>
-        <p>Kurze Texte für alle, die weniger automatisch scrollen wollen, ohne komplett offline zu verschwinden.</p>
+        <p>Kurze Texte für alle, die bewusster mit dem Handy umgehen wollen - ohne Dogma, ohne Druck.</p>
       </section>
 
       <section className="section">

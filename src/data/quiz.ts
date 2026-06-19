@@ -42,23 +42,23 @@ export const resultTypes: Record<
   evening_scroller: {
     name: "Der Abend-Scroller",
     description:
-      "Du verlierst deine Zeit vor allem abends, wenn Energie und Selbstkontrolle niedrig sind. Dein Handy wird dann zur schnellen Entlastung, besonders auf dem Sofa oder im Bett.",
+      "Du verlierst Deine Zeit vor allem abends, wenn Energie und Selbstkontrolle niedrig sind. Dein Handy wird dann zur schnellen Entlastung, besonders auf dem Sofa oder im Bett.",
     thought: "Ich schaue nur kurz rein, dann schlafe ich.",
     trigger: "Müdigkeit, Übergang in den Feierabend, Bett, fehlende Abendroutine.",
-    rule: "Lade dein Handy heute außerhalb des Betts und plane 10 Minuten Ersatz: Lesen, Musik, Tee oder Notizen.",
+    rule: "Lade Dein Handy heute außerhalb des Betts und plane 10 Minuten Ersatz: Lesen, Musik, Tee oder Notizen.",
   },
   stress_checker: {
     name: "Der Stress-Checker",
     description:
-      "Du greifst besonders dann zum Handy, wenn du innerlich angespannt bist. Scrollen ist für dich weniger Unterhaltung als schnelle Flucht aus Stress.",
+      "Du greifst besonders dann zum Handy, wenn Du innerlich angespannt bist. Scrollen ist für Dich weniger Unterhaltung als schnelle Flucht aus Stress.",
     thought: "Ich brauche kurz eine Pause.",
     trigger: "Überforderung, Druck, unangenehme Aufgaben, innere Unruhe.",
-    rule: 'Bevor du deine Problem-App öffnest, atme einmal tief aus und frage: "Was brauche ich gerade wirklich?"',
+    rule: 'Bevor Du Deine Problem-App öffnest, atme einmal tief aus und frage: "Was brauche ich gerade wirklich?"',
   },
   news_refresher: {
     name: "Der News-Refresher",
     description:
-      "Du checkst oft News, Updates oder neue Informationen, weil du das Gefühl hast, sonst etwas zu verpassen. Danach bist du oft informierter, aber nicht ruhiger.",
+      "Du checkst oft News, Updates oder neue Informationen, weil Du das Gefühl hast, sonst etwas zu verpassen. Danach bist Du oft informierter, aber nicht ruhiger.",
     thought: "Ich will nur wissen, ob es etwas Neues gibt.",
     trigger: "Unsicherheit, Wartezeiten, Weltlage, Kontrollbedürfnis.",
     rule: "Wähle zwei feste News-Zeiten pro Tag und öffne News nicht außerhalb dieser Fenster.",
@@ -74,15 +74,15 @@ export const resultTypes: Record<
   work_procrastinator: {
     name: "Der Arbeits-Prokrastinierer",
     description:
-      "Du öffnest dein Handy oft kurz vor oder während Aufgaben, die Konzentration brauchen. Das Scrollen schützt dich kurzfristig vor Anstrengung, macht den Einstieg danach aber schwerer.",
+      "Du öffnest Dein Handy oft kurz vor oder während Aufgaben, die Konzentration brauchen. Das Scrollen schützt Dich kurzfristig vor Anstrengung, macht den Einstieg danach aber schwerer.",
     thought: "Ich fange gleich an, nur noch kurz.",
     trigger: "Schwierige Aufgabe, unklarer Start, Langeweile, Perfektionismus.",
-    rule: "Lege dein Handy für die ersten 20 Minuten einer Aufgabe außer Sicht.",
+    rule: "Lege Dein Handy für die ersten 20 Minuten einer Aufgabe außer Sicht.",
   },
   chat_checker: {
     name: "Der Chat-Checker",
     description:
-      "Du schaust oft nach Nachrichten, weil du schnell reagieren willst oder auf Rückmeldung wartest. Das fühlt sich sozial an, wird aber schnell zum permanenten Checken.",
+      "Du schaust oft nach Nachrichten, weil Du schnell reagieren willst oder auf Rückmeldung wartest. Das fühlt sich sozial an, wird aber schnell zum permanenten Checken.",
     thought: "Vielleicht hat jemand geschrieben.",
     trigger: "Warten, soziale Erwartung, offene Gespräche, Unsicherheit.",
     rule: "Stelle für eine Stunde Benachrichtigungen aus und prüfe Nachrichten bewusst zu einem festen Zeitpunkt.",
@@ -92,7 +92,7 @@ export const resultTypes: Record<
 export const quizQuestions: QuizQuestion[] = [
   {
     id: "q1",
-    prompt: "Wann verlierst du am ehesten Zeit am Handy?",
+    prompt: "Wann verlierst Du am ehesten Zeit am Handy?",
     answers: [
       { id: "a", label: "Abends auf dem Sofa oder im Bett", scores: { evening_scroller: 2 } },
       { id: "b", label: "Wenn ich gestresst oder überfordert bin", scores: { stress_checker: 2 } },
@@ -103,7 +103,7 @@ export const quizQuestions: QuizQuestion[] = [
   },
   {
     id: "q2",
-    prompt: "Welche App zieht dich am stärksten?",
+    prompt: "Welche App zieht Dich am stärksten?",
     answers: [
       { id: "a", label: "Instagram", scores: { shorts_loop: 1, evening_scroller: 1 } },
       { id: "b", label: "TikTok oder YouTube Shorts", scores: { shorts_loop: 2 } },
@@ -115,7 +115,7 @@ export const quizQuestions: QuizQuestion[] = [
   },
   {
     id: "q3",
-    prompt: "Was denkst du meistens kurz bevor du die App öffnest?",
+    prompt: "Was denkst Du meistens kurz bevor Du die App öffnest?",
     answers: [
       { id: "a", label: "Nur kurz abschalten.", scores: { evening_scroller: 1, shorts_loop: 1 } },
       { id: "b", label: "Ich brauche gerade eine Pause.", scores: { stress_checker: 2 } },
@@ -126,7 +126,7 @@ export const quizQuestions: QuizQuestion[] = [
   },
   {
     id: "q4",
-    prompt: "Wie fühlst du dich meistens nach 20 Minuten Scrollen?",
+    prompt: "Wie fühlst Du Dich meistens nach 20 Minuten Scrollen?",
     answers: [
       { id: "a", label: "Leer oder unruhig", scores: { shorts_loop: 1, evening_scroller: 1 } },
       { id: "b", label: "Kurz besser, dann wieder gestresst", scores: { stress_checker: 2 } },
@@ -148,7 +148,7 @@ export const quizQuestions: QuizQuestion[] = [
   },
   {
     id: "q6",
-    prompt: "Was würde dir am meisten helfen?",
+    prompt: "Was würde Dir am meisten helfen?",
     answers: [
       { id: "a", label: "Keine Social Apps im Bett", scores: { evening_scroller: 2 } },
       { id: "b", label: "Eine klare Pause vor dem Öffnen", scores: { stress_checker: 2 } },
@@ -159,7 +159,7 @@ export const quizQuestions: QuizQuestion[] = [
   },
   {
     id: "q7",
-    prompt: "Was ist dein größter Widerstand gegen Digital Detox?",
+    prompt: "Was ist Dein größter Widerstand gegen Digital Detox?",
     answers: [
       { id: "a", label: "Ich will nicht komplett offline sein.", scores: {} },
       { id: "b", label: "Ich brauche mein Handy für Arbeit, Freunde oder Alltag.", scores: {} },
@@ -170,7 +170,7 @@ export const quizQuestions: QuizQuestion[] = [
   },
   {
     id: "q8",
-    prompt: "Welche kleine Regel klingt für dich machbar?",
+    prompt: "Welche kleine Regel klingt für Dich machbar?",
     answers: [
       { id: "a", label: "30 Minuten vor dem Schlafen kein Feed", scores: { evening_scroller: 3 } },
       { id: "b", label: "10 Sekunden Pause vor meiner Problem-App", scores: { stress_checker: 3 } },

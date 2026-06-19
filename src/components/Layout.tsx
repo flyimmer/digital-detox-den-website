@@ -65,7 +65,7 @@ export function Layout({ children, currentPath }: { children: ReactNode; current
           <img src="/assets/icon.png" alt="" className="footer-icon" />
           <span>Digital Detox Den</span>
         </div>
-        <p>Ein freundlicher Einstieg in bewusstere digitale Gewohnheiten.</p>
+        <p>Mehr Leben. Weniger Autopilot.</p>
       </footer>
     </>
   );

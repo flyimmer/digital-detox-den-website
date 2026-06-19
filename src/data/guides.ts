@@ -13,11 +13,11 @@ export const guides: Guide[] = [
   {
     slug: "digital-detox-fuer-anfaenger",
     title: "Digital Detox für Anfänger",
-    description: "Ein ruhiger Einstieg, der nicht mit radikalem Verzicht beginnt.",
+    description: "Der Einstieg, der nicht wehtut - und trotzdem etwas verändert.",
     readingTime: "4 Min.",
-    metaDescription: "Digital Detox für Anfänger: einfache Regeln, mit denen du bewusster mit Handy und Social Media umgehst.",
+    metaDescription: "Digital Detox für Anfänger: einfache Regeln, mit denen Du bewusster mit Handy und Social Media umgehst.",
     intro:
-      "Digital Detox muss nicht heißen, dass du dein Handy wegschließt. Ein guter Anfang ist, eine einzige Situation zu erkennen, in der du oft automatisch öffnest.",
+      "Digital Detox muss nicht radikal sein. Es reicht, eine einzige Situation zu erkennen, in der Du fast automatisch zum Handy greifst - und genau dort anzufangen.",
     sections: [
       {
         heading: "Starte mit einem Muster",
@@ -29,12 +29,12 @@ export const guides: Guide[] = [
       },
       {
         heading: "Ersetze statt nur zu verbieten",
-        body: "Wenn du nur etwas wegnimmst, entsteht schnell Leerlauf. Plane eine einfache Alternative, die in dieselbe Situation passt.",
+        body: "Wenn Du nur etwas wegnimmst, entsteht schnell Leerlauf. Plane eine einfache Alternative, die in dieselbe Situation passt.",
       },
     ],
     tips: [
-      "Lade dein Handy eine Nacht außerhalb des Betts.",
-      "Lege deine stärkste App nicht auf den Homescreen.",
+      "Lade Dein Handy eine Nacht außerhalb des Betts.",
+      "Lege Deine stärkste App nicht auf den Homescreen.",
       "Nutze eine feste News- oder Chat-Zeit statt dauerndem Checken.",
       "Frage vor dem Öffnen: Was will ich gerade wirklich?",
     ],
@@ -46,15 +46,15 @@ export const guides: Guide[] = [
     readingTime: "5 Min.",
     metaDescription: "Warum wir automatisch zum Handy greifen: typische Trigger erkennen und bewusster reagieren.",
     intro:
-      "Automatisches Scrollen beginnt selten mit einer bewussten Entscheidung. Häufig startet es in einem kleinen Moment davor: Langeweile, Stress, Warten oder Müdigkeit.",
+      "Der Griff zum Handy passiert oft, bevor Du überhaupt gemerkt hast, dass Du es schon in der Hand hältst. Das ist kein Versagen - das ist ein Reflex. Und Reflexe lassen sich verändern.",
     sections: [
       {
         heading: "Der Auslöser kommt vor der App",
-        body: "Die App ist sichtbar, aber der eigentliche Startpunkt ist oft eine Situation oder ein Gefühl. Wer diesen Startpunkt kennt, kann gezielter handeln.",
+        body: "Die App ist sichtbar - aber der eigentliche Startpunkt ist oft ein Gefühl: Langeweile, Druck, Müdigkeit. Wer das erkennt, kann gezielter ansetzen.",
       },
       {
         heading: "Gewohnheiten sparen Energie",
-        body: "Wiederholte Handlungen laufen leichter ab. Das ist normal und praktisch, kann aber dazu führen, dass du entsperrst, bevor du wirklich entschieden hast.",
+        body: "Wiederholte Handlungen laufen irgendwann automatisch. Das ist normal - kann aber dazu führen, dass Du entsperrst, bevor Du wirklich entschieden hast.",
       },
       {
         heading: "Eine kleine Pause reicht oft",
@@ -62,61 +62,61 @@ export const guides: Guide[] = [
       },
     ],
     tips: [
-      "Notiere einmal am Tag, wann du automatisch geöffnet hast.",
+      "Notiere einmal am Tag, wann Du automatisch geöffnet hast.",
       "Achte auf den Moment direkt vor dem Entsperren.",
-      "Lege eine 10-Sekunden-Pause vor deine Problem-App.",
-      "Formuliere eine Wenn-dann-Regel für deinen häufigsten Trigger.",
+      "Lege eine 10-Sekunden-Pause vor Deine Problem-App.",
+      "Formuliere eine Wenn-dann-Regel für Deinen häufigsten Trigger.",
     ],
   },
   {
     slug: "abends-weniger-scrollen",
     title: "Abends weniger scrollen",
-    description: "Praktische Abendregeln, die ohne strengen Verzicht funktionieren.",
+    description: "Einfache Abendregeln, die sich im Alltag wirklich halten lassen.",
     readingTime: "4 Min.",
     metaDescription: "Abends weniger scrollen: einfache Ideen für Handy, Sofa und Bett.",
     intro:
-      "Abends ist Scrollen besonders leicht, weil der Tag lang war und schnelle Entlastung verlockend wirkt. Eine gute Regel muss deshalb sehr einfach sein.",
+      "Abends ist der Autopilot am stärksten. Der Tag war lang, die Energie ist weg - und das Handy liegt einfach da. Genau deshalb braucht es keine strenge Regel, sondern eine sehr einfache.",
     sections: [
       {
         heading: "Mach das Bett weniger scroll-freundlich",
-        body: "Wenn das Handy neben dem Kopf liegt, ist der Griff fast automatisch. Ein Ladeplatz außerhalb des Betts schafft Distanz, ohne dein Handy zu verbannen.",
+        body: "Wenn das Handy neben dem Kopf liegt, ist der Griff fast automatisch. Ein Ladeplatz außerhalb des Betts schafft Distanz, ohne Dein Handy zu verbannen.",
       },
       {
         heading: "Plane einen weichen Übergang",
-        body: "Viele scrollen, weil der Wechsel vom Tag in den Abend ungeplant ist. Eine kleine Routine gibt deinem Kopf einen anderen Abschluss.",
+        body: "Viele scrollen, weil der Wechsel vom Tag in den Abend ungeplant ist. Eine kleine Routine gibt Deinem Kopf einen anderen Abschluss - und dem Abend eine andere Richtung.",
       },
       {
         heading: "Halte die Regel klein",
-        body: "Eine komplette Offline-Nacht ist für den Start oft zu groß. Beginne lieber mit 20 bis 30 feedfreien Minuten.",
+        body: "Eine komplette Offline-Nacht ist für den Anfang meist zu viel. Beginne lieber mit 20 bis 30 Minuten ohne Feed - das ist klein genug, um wirklich zu starten.",
       },
     ],
     tips: [
       "Stelle das Ladegerät an einen Ort außerhalb des Betts.",
       "Lege ein Buch, Notizbuch oder Kopfhörer sichtbar bereit.",
-      "Setze eine feste Uhrzeit für den letzten Feed.",
+      "Setze Dir eine feste Uhrzeit für den letzten Feed.",
       "Nutze einen Fokusmodus mit nur wichtigen Kontakten.",
     ],
   },
   {
     slug: "doomscrolling-stoppen",
     title: "Doomscrolling stoppen",
-    description: "Wie du News bewusst checkst, ohne dich dauerhaft hineinzuziehen.",
+    description: "Wie Du News bewusst checkst, ohne Dich dauerhaft hineinziehen zu lassen.",
     readingTime: "5 Min.",
     metaDescription: "Doomscrolling stoppen: praktische Wege, News und Updates bewusster zu nutzen.",
     intro:
-      "Doomscrolling fühlt sich oft wie informiert bleiben an, kann aber schnell unruhiger machen. Hilfreich ist nicht weniger Interesse, sondern ein klarerer Rahmen.",
+      "Du wolltest kurz die News checken - und 40 Minuten später bist Du noch immer drin, aber irgendwie unruhiger als vorher. Das kennen viele. Es liegt nicht daran, dass Du zu viel weißt, sondern daran, wie Du Information konsumierst.",
     sections: [
       {
         heading: "Trenne Informieren von Beruhigen",
-        body: "News können wichtig sein. Gleichzeitig wird ständiges Aktualisieren selten zu mehr Ruhe. Frage dich, ob du gerade Information suchst oder Sicherheit.",
+        body: "News können wichtig sein. Aber ständiges Aktualisieren führt selten zu mehr Ruhe. Frage Dich ehrlich: Suchst Du gerade Information - oder Sicherheit?",
       },
       {
         heading: "Nutze feste Fenster",
-        body: "Zwei bewusste News-Zeiten sind oft hilfreicher als viele kleine Checks. So bleibt Information verfügbar, ohne den ganzen Tag zu übernehmen.",
+        body: "Zwei feste News-Zeiten am Tag sind oft hilfreicher als zehn kleine Checks zwischendurch. Die Information bleibt verfügbar - aber sie übernimmt nicht mehr den ganzen Tag.",
       },
       {
         heading: "Schließe die Schleife",
-        body: "Nach dem Lesen hilft ein bewusstes Ende: App schließen, Handy weglegen, einmal notieren, was du jetzt konkret tun kannst oder nicht tun musst.",
+        body: "Nach dem Lesen hilft ein bewusstes Ende: App schließen, Handy weglegen - und einmal kurz notieren, was Du jetzt konkret tun kannst oder getrost loslassen kannst.",
       },
     ],
     tips: [
