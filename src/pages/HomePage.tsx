@@ -60,13 +60,8 @@ export function HomePage() {
             <h3>Digital Detox Selbsttest</h3>
             <p>Beantworte 8 kurze Fragen und finde heraus, welcher Scroll-Typ Du bist.</p>
           </AppLink>
-          <AppLink href="/guides" className="product-card">
-            <span>02</span>
-            <h3>Guides</h3>
-            <p>Kurze Texte für echte Alltagssituationen - von Abend-Scrolling bis Doomscrolling.</p>
-          </AppLink>
           <AppLink href="/community" className="product-card">
-            <span>03</span>
+            <span>02</span>
             <h3>Community</h3>
             <p>Echte Gespräche, Mini-Regeln und Menschen, die das genauso kennen wie Du.</p>
           </AppLink>

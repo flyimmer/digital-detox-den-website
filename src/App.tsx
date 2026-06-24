@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { Layout } from "./components/Layout";
 import { CommunityPage } from "./pages/CommunityPage";
-import { GuideArticlePage } from "./pages/GuideArticlePage";
-import { GuidesPage } from "./pages/GuidesPage";
 import { HomePage } from "./pages/HomePage";
 import { SelfTestPage } from "./pages/SelfTestPage";
 
@@ -21,8 +19,6 @@ export function navigate(path: string) {
 function RouteView({ path }: { path: string }) {
   if (path === "/") return <HomePage />;
   if (path === "/selbsttest") return <SelfTestPage />;
-  if (path === "/guides") return <GuidesPage />;
-  if (path.startsWith("/guides/")) return <GuideArticlePage slug={path.replace("/guides/", "")} />;
   if (path === "/community") return <CommunityPage />;
   return <HomePage />;
 }

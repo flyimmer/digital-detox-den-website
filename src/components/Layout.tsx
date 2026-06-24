@@ -4,7 +4,6 @@ import { navigate } from "../App";
 const navItems = [
   { href: "/", label: "Home" },
   { href: "/selbsttest", label: "Selbsttest" },
-  { href: "/guides", label: "Guides" },
   { href: "/community", label: "Community" },
 ];
 
