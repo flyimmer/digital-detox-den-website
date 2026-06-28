@@ -1,11 +1,31 @@
 import type { ReactNode } from "react";
 import { navigate } from "../App";
+import { getRoutes, type Locale } from "../lib/locale";
 
-const navItems = [
-  { href: "/", label: "Home" },
-  { href: "/selbsttest", label: "Selbsttest" },
-  { href: "/community", label: "Community" },
-];
+const layoutCopy = {
+  de: {
+    brandLabel: "Digital Detox Den Startseite",
+    navLabel: "Hauptnavigation",
+    nav: {
+      home: "Home",
+      selfTest: "Selbsttest",
+      community: "Community",
+    },
+    footer: "Mehr Leben. Weniger Autopilot.",
+    languageLabel: "Sprache wählen",
+  },
+  en: {
+    brandLabel: "Digital Detox Den home",
+    navLabel: "Main navigation",
+    nav: {
+      home: "Home",
+      selfTest: "Self-test",
+      community: "Community",
+    },
+    footer: "More life. Less autopilot.",
+    languageLabel: "Choose language",
+  },
+};
 
 export function AppLink({
   href,
@@ -38,25 +58,59 @@ export function AppLink({
   );
 }
 
-export function Layout({ children, currentPath }: { children: ReactNode; currentPath: string }) {
+export function Layout({
+  children,
+  currentPath,
+  locale,
+  onLocaleChange,
+}: {
+  children: ReactNode;
+  currentPath: string;
+  locale: Locale;
+  onLocaleChange: (locale: Locale) => void;
+}) {
+  const copy = layoutCopy[locale];
+  const routeMap = getRoutes(locale);
+  const navItems = [
+    { href: routeMap.home, label: copy.nav.home },
+    { href: routeMap.selfTest, label: copy.nav.selfTest },
+    { href: routeMap.community, label: copy.nav.community },
+  ];
+
   return (
     <>
       <header className="site-header">
-        <AppLink href="/" className="brand" ariaLabel="Digital Detox Den Startseite">
+        <AppLink href={routeMap.home} className="brand" ariaLabel={copy.brandLabel}>
           <img src="/assets/icon.png" alt="" className="brand-icon" />
           <span>Digital Detox Den</span>
         </AppLink>
-        <nav className="site-nav" aria-label="Hauptnavigation">
-          {navItems.map((item) => {
-            const isActive =
-              item.href === "/" ? currentPath === "/" : currentPath === item.href || currentPath.startsWith(`${item.href}/`);
-            return (
-              <AppLink key={item.href} href={item.href} className="nav-link">
-                <span aria-current={isActive ? "page" : undefined}>{item.label}</span>
-              </AppLink>
-            );
-          })}
-        </nav>
+        <div className="header-actions">
+          <nav className="site-nav" aria-label={copy.navLabel}>
+            {navItems.map((item) => {
+              const isActive =
+                item.href === "/" || item.href === "/en"
+                  ? currentPath === item.href
+                  : currentPath === item.href || currentPath.startsWith(`${item.href}/`);
+              return (
+                <AppLink key={item.href} href={item.href} className="nav-link">
+                  <span aria-current={isActive ? "page" : undefined}>{item.label}</span>
+                </AppLink>
+              );
+            })}
+          </nav>
+          <div className="language-switch" aria-label={copy.languageLabel}>
+            {(["de", "en"] as const).map((item) => (
+              <button
+                key={item}
+                type="button"
+                aria-pressed={locale === item}
+                onClick={() => onLocaleChange(item)}
+              >
+                {item.toUpperCase()}
+              </button>
+            ))}
+          </div>
+        </div>
       </header>
       <main>{children}</main>
       <footer className="site-footer">
@@ -64,7 +118,7 @@ export function Layout({ children, currentPath }: { children: ReactNode; current
           <img src="/assets/icon.png" alt="" className="footer-icon" />
           <span>Digital Detox Den</span>
         </div>
-        <p>Mehr Leben. Weniger Autopilot.</p>
+        <p>{copy.footer}</p>
       </footer>
     </>
   );

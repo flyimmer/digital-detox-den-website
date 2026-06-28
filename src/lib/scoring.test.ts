@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { quizQuestionsEn } from "../data/quiz";
 import { scoreQuiz, type Selections } from "./scoring";
 
 const neutral = { q7: "a" };
@@ -28,5 +29,11 @@ describe("scoreQuiz", () => {
     });
 
     expect(result.resultId).toBe("stress_checker");
+  });
+
+  it("uses the English quiz data with the same scoring behavior", () => {
+    const selections = { q1: "e", q2: "b", q3: "a", q4: "a", q5: "b", q6: "e", q7: "a", q8: "c" };
+
+    expect(scoreQuiz(selections, quizQuestionsEn).resultId).toBe("shorts_loop");
   });
 });
