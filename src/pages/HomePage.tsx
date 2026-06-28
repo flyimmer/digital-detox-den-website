@@ -54,7 +54,7 @@ const homeCopy = {
       "Many people open TikTok, Instagram, YouTube, Reddit, news, or messaging apps for just a moment and lose more time than planned. Often the app itself is not the whole problem, but the moment before it: stress, tiredness, boredom, waiting, or an unclear start.",
     benefitsEyebrow: "What you get",
     benefitsTitle: "A clear result instead of a guilty conscience.",
-    benefits: ["Your scroll type", "Your strongest trigger", "a first mini rule", "an entry point into a helpful community"],
+    benefits: ["Your scroll type", "Your strongest trigger", "A first mini rule", "An entry point into a helpful community"],
     products: [
       {
         number: "01",
